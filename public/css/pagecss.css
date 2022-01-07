@@ -126,6 +126,21 @@ body{
 	width:43%;
 	margin-left: -1.25%;
 }
+.mention{
+	margin-bottom: 0px;
+	margin-left: 0%;
+}
+.mode{
+	margin-top: 0%;
+	margin-left: 97%;
+	color:white;
+}
+.bouton{
+	margin-top: 0%;
+	margin-left:85%;
+	width: 50px;
+	height: 25px;
+}
 @media screen and (min-width:0px) and (max-width:1400px) {
 	.compe{
 	margin-top:8%;
