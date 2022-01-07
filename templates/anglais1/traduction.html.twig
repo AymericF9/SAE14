@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Présentation de la SAE 14{% endblock %}</title>
+		<link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
+		<link href="/css/pagecss.css" rel= "stylesheet" type="text/css">
+        {% block stylesheets %}{% endblock %}
+    </head>
+	<body>
+{% block body %}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<a class="navbar-brand" href="/">Accueil</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/blog">CV
+					
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blognew">Portfolio de compétences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blognew2">Mes loisirs</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+	<a class="bouton" href="/"><button> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/langfr-225px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png"></button></a>
+	<h1 class="titre1">Welcome to my site !</h1>
+	<p class="texte1"> Vous allez pouvoir grâce à cette page interragir avec différents boutons qui vous renverront soit vers mon CV, soit vers mon portfolio de compétences,
+	soit vers mes différents moyens pour me contacter. Vous pourrez également laisser un avis général sur mon site sur cette page d'accueil ou bien
+	me laisser vos coordonnées pour que nous puissons discuter !</p>
+	<form method="post" >
+    <p class="formulaire">
+        <label for="nom">Votre nom complet :</label><br>
+        <input type="text" name="nom" id="nom" placeholder="Ex : Marc Dupont" size="30" /><br><br>
+        <label for="remarques">Mettez votre avis sur mon site en général !</label>
+        <br>
+        <textarea name="remarques" id="remarques" rows="10" cols="40" >
+        </textarea>
+	
+	</p>
+	</form>
+
+	<form method="post">
+	<p class="email">
+		  <label for="mail">Adresse mail :</label><br>
+		  <input type="text" name="mail" placeholder="Entrez votre mail ici" size="37" /><br>
+		  <small id="emailHelp" class="form-text text-muted">Nous ne partagerons votre mail avec personne d'autre.</small>
+	</p>
+	</form>
+	<br>
+	<div class="info">
+	<div class="form-group row">
+      <label for="staticEmail" class="col-sm-2 col-form-label" >À propos de moi :</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="Foulie Aymeric">
+	  </div>
+	</div>
+	
+	
+	<div class="form-group row">
+      <label for="staticEmail" class="col-sm-2 col-form-label">Mon email :</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="aymeric.foulie@etu.univ-st-etienne.fr">
+	  </div>
+	</div>
+
+	
+	
+	<div class="form-group row">
+      <label for="staticEmail" class="col-sm-2 col-form-label">Mon téléphone :</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="0763425301">
+	  </div>
+	</div>
+	</div>
+	<br>
+	<div class="drapeau">
+	<a href="/blognew2" ><button type="button" class="btn btn-primary btn-sm" >En savoir plus</button></a>
+	</div>
+   <div>
+	  <ul class="pagination">
+		<li class="page-item active">
+		  <a class="page-link" href="/">1</a>
+		</li>
+		<li class="page-item">
+		  <a class="page-link" href="/blog">2</a>
+		</li>
+		<li class="page-item">
+		  <a class="page-link" href="/blognew">3</a>
+		</li>
+		<li class="page-item">
+		  <a class="page-link" href="/blognew2">4</a>
+		</li>
+	   </ul>
+	</div>
+
+	<div class="mention" >
+	<span id="copyright symbol">&copy Copyright 2022 <?php bloginfo('foulie'); ?>. Tous droits réservés, copies interdites.
+	</div>
+{% endblock body%}
