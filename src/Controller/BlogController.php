@@ -40,4 +40,35 @@ class BlogController extends AbstractController
 	{ 
 	return $this->render('blognew2/page3.html.twig'); 
 }
+	/**
+     * @Route("/anglais1", name="Page traduite")
+     */
+	public function index4() : Response
+	{ 
+	return $this->render('anglais1/traduction.html.twig'); 
+	}
+	
+	/**
+     * @Route("/anglais2", name="Page traduite 2")
+     */
+	public function index5() : Response
+	{ 
+	return $this->render('anglais2/traduction.html.twig'); 
+	}
+
+	/**
+     * @Route("/anglais3", name="Page traduite 3")
+     */
+	public function index6() : Response
+	{ 
+	return $this->render('anglais3/traduction.html.twig'); 
+	}
+
+	/**
+     * @Route("/anglais4", name="Page traduite 4")
+     */
+	public function index7() : Response
+	{ 
+	return $this->render('anglais4/traduction.html.twig'); 
+	}
 }
