@@ -33,4 +33,11 @@ class BlogController extends AbstractController
 	{ 
 	return $this->render('blognew/page2.html.twig'); 
 }
+	/**
+     * @Route("/blognew2", name="Page 3")
+     */
+	public function index3() : Response
+	{ 
+	return $this->render('blognew2/page3.html.twig'); 
+}
 }
