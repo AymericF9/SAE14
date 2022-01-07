@@ -1,0 +1,155 @@
+body{
+	margin:0;
+	padding:0;
+	background: url('https://image.freepik.com/photos-gratuite/mur-beton-noir_24972-1046.jpg') no-repeat center fixed; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.titre1{
+	text-align:center;
+	font-size:40px;
+	color:white;
+	font-weight: bold;
+}
+.titre2{
+	text-align:center;
+	font-size:40px;
+	color:white;
+	font-weight: bold;
+}
+.texte1{
+	margin-top:3%;
+	color:white;
+	font-size:20px;
+}
+.formulaire{
+	margin-left:32%;
+	margin-top:3.5%;
+	color:white;
+}
+
+.pagination{
+	margin-left:45%;
+	margin-top:5%;
+}
+.page2{
+	margin-left:-3%;
+}
+.page3{
+	margin-top:10%;
+	margin-left:-3%;
+}
+.cv{
+	width:60%;
+	height:50%;
+	margin-left:20%;
+	margin-top:4%;
+}
+.email{
+	color:white;
+	margin-left:32%;
+}
+.bouton{
+	margin-left:40%;
+}
+.titreport{
+	font-weight:bold;
+	color:white;
+	text-align:center;
+}
+.compe{
+	margin-top:8%;
+	margin-left:8%;
+}
+.compe2{
+	margin-left:50%;
+	margin-top:-30.25%;
+}
+.compe3{
+	margin-top:8%;
+	margin-left:8%;
+}
+.compe4{
+	margin-left:50%;
+	margin-top:-32.5%;
+}
+.lienhygiene{
+	color:white;
+}
+.info{
+	color:white;
+}
+#staticEmail{
+	color:white;
+}
+.loisir{
+	margin-top:5%;
+	margin-left:5%;
+}
+.loisir2{
+	margin-left:55%;
+	margin-top:-44.25%;
+}
+.sport1{
+	width:50%;
+	height:40%;
+}
+.sport2{
+	width:50%;
+	height:40%;
+	margin-left:50%;
+	margin-top:-112.5%;
+}
+.sport3{
+	width:50%;
+	height:25%;
+	margin-left:50%;
+	margin-top:-51%;
+}
+.livre1{
+	height:50%;
+	width:50%;
+}
+.livre2{
+	width:41.75%;
+	height:35%;
+	margin-left:50%;
+	margin-top:-76.25%;
+}
+@media screen and (min-width:0px) and (max-width:1400px) {
+	.compe{
+	margin-top:8%;
+	margin-left:8%;
+	}
+	.compe2{
+		margin-left:50%;
+		margin-top:-30.25%;
+	}
+	.compe3{
+		margin-top:8%;
+		margin-left:8%;
+	}
+	.compe4{
+		margin-left:50%;
+		margin-top:-32.5%;
+	}
+}
+@media screen and (min-width:1401px){
+	.compe{
+	margin-top:8%;
+	margin-left:8%;
+	}
+	.compe2{
+		margin-left:50%;
+		margin-top:-26.5%;
+	}
+	.compe3{
+		margin-top:8%;
+		margin-left:8%;
+	}
+	.compe4{
+		margin-left:50%;
+		margin-top:-28%;
+	}
+}
