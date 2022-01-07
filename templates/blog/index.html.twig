@@ -1,6 +1,60 @@
-{% extends 'base.html.twig' %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Voici mon CV{% endblock %}</title>
+		<link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
+		<link href="/css/pagecss.css" rel= "stylesheet" type="text/css">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
 
-{% block title %}Bienvenue!{% endblock %}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<a class="navbar-brand" href="/">Accueil</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/blog">CV
+					
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blognew">Portfolio de compétences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blognew2">Mes loisirs</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
 {% block body %}
-<p> SALUUUUUUUTTT </p>
+	<div class="titre2" <h1>Présentation de mon CV</h1> </div>
+	<img src="/images/cv.png" class="cv" ><br><br>
+	<br>
+	<a class="bouton" role="button" href="/images/cv.png" download="" > 
+		<button type="button" class="btn btn-primary">Télécharger mon CV</button>
+	</a>
+	
+	<div class="page2">
+	  <ul class="pagination">
+		<li class="page-item">
+		  <a class="page-link" href="/">1</a>
+		</li>
+		<li class="page-item active">
+		  <a class="page-link" href="/blog">2</a>
+		</li>
+		<li class="page-item">
+		  <a class="page-link" href="/blognew">3</a>
+		</li>
+		<li class="page-item">
+		  <a class="page-link" href="/blognew2">4</a>
+		</li>
+	   </ul>
+	</div>
+
 {% endblock %}
