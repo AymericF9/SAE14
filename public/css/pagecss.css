@@ -34,7 +34,10 @@ body{
 	margin-top:5%;
 }
 .page2{
-	margin-left:-3%;
+	margin-left:-0,25%;
+}
+.page2-2{
+	margin-left:-2%;
 }
 .page3{
 	margin-top:10%;
@@ -130,15 +133,11 @@ body{
 	margin-bottom: 0px;
 	margin-left: 0%;
 }
-.mode{
-	margin-top: 0%;
-	margin-left: 97%;
-	color:white;
-}
 .bouton{
-	margin-top: 0%;
 	margin-left:115%;
-	
+}
+.bouton2{
+	margin-left:42%;
 }
 @media screen and (min-width:0px) and (max-width:1400px) {
 	.compe{
