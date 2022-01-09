@@ -137,9 +137,8 @@ body{
 }
 .bouton{
 	margin-top: 0%;
-	margin-left:85%;
-	width: 50px;
-	height: 25px;
+	margin-left:115%;
+	
 }
 @media screen and (min-width:0px) and (max-width:1400px) {
 	.compe{
