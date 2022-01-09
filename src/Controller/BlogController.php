@@ -53,7 +53,7 @@ class BlogController extends AbstractController
      */
 	public function index5() : Response
 	{ 
-	return $this->render('anglais2/traduction.html.twig'); 
+	return $this->render('anglais2/traduction2.html.twig'); 
 	}
 
 	/**
