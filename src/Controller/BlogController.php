@@ -61,7 +61,7 @@ class BlogController extends AbstractController
      */
 	public function index6() : Response
 	{ 
-	return $this->render('anglais3/traduction.html.twig'); 
+	return $this->render('anglais3/traduction3.html.twig'); 
 	}
 
 	/**
@@ -69,6 +69,6 @@ class BlogController extends AbstractController
      */
 	public function index7() : Response
 	{ 
-	return $this->render('anglais4/traduction.html.twig'); 
+	return $this->render('anglais4/traduction4.html.twig'); 
 	}
 }
