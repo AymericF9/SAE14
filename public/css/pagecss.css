@@ -215,6 +215,15 @@ body{
 		margin-top:10%;
 		margin-left:-5%;
 	}
+	.email{
+		color:white;
+		margin-left:34%;
+	}
+	.formulaire{
+		margin-left:34%;
+		margin-top:3.5%;
+		color:white;
+	}
 }
 @media screen and (min-width:1401px){
 	.compe{
