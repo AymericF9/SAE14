@@ -71,4 +71,11 @@ class BlogController extends AbstractController
 	{ 
 	return $this->render('anglais4/traduction4.html.twig'); 
 	}
+	/**
+     * @Route("/test", name="Oral")
+     */
+	public function index8() : Response
+	{ 
+	return $this->render('pagetestoral/test.html.twig'); 
+	}
 }
